@@ -1,0 +1,29 @@
+{
+    "name": "maddhatter/pretty-qr",
+    "description": "Generator for QR codes with custom text",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Tunney",
+            "email": "shawn.tunney@gmail.com"
+        }
+    ],
+    "keywords": ["laravel", "qr"],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-gd": "*",
+        "illuminate/support": "5.0.*",
+        "aferrandini/phpqrcode": "1.0.1",
+        "illuminate/http": "5.0.*",
+        "illuminate/filesystem": "5.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Maddhatter\\PrettyQr\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
